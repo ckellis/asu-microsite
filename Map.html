@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ASU</title>
+
+<link href="css/map.css" rel="stylesheet" type="text/css" />
+
+<script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+
+</head>
+
+<body>
+
+<header> 
+
+<aside style="margin-top:-5px;">
+<small>ASU Home My ASU Colleges <small>&#x25BC;</small> Schools  Map <small>&#x25BC;</small> Locations  Contact ASU | <strong>Sign In</strong></small>
+</aside>
+              
+<img src="http://www.asu.edu/asuthemes/4.0-rsp.1/images/logos/engineering_logo.png" alt="Ira A. Fulton Schools of Engineering at Arizona State University" style="margin-top:14px;float:left;" title="" />
+
+<br>
+<br>
+
+ <div id="form">
+<form style="margin:0">
+<input type="text" class="searchbar" value="&nbsp;Search ASU" style="background-color:#E3E3E3;"/>
+<input type="button" value="search" class="go_button"/>
+</form></div>
+                
+</header>
+
+<nav>
+<ul id="menu">
+	<li id="home"><a href="Home.html">Home</a></li>
+	<li id="courses"><a href="Courses.html">Courses</a></li>
+	<li id="resources"><a href="Resources.html">Resources</a></li>
+	<li id="map"><a href="Map.html">Map</a></li>
+</ul>
+</nav>
+
+<section class="main">
+
+<section class="content">
+<br>
+<img class="title" alt="courses" src="images/map.png"/>
+<br>
+<br>
+
+<div id="wrap">
+<h3>Legend //</h3>
+Buildings to Know<br><br>
+Areas of Interest<br><br>
+Shuttle Stops
+
+ <div id="container"></div>
+ <canvas id="myCanvas" width="140px" height="175px"></canvas>
+
+ </div>
+ 
+ <br><br>
+<span style="font-size:14pt"><em>Click on the various location <br>markers to learn more about <br>available resources and facilities!</em></span>
+
+ <canvas id="myCanvas2" width="200" height="200px"></canvas>
+
+<footer>
+
+<figure><img alt="Graphic Information Technology" src="images/git.png"/></figure>
+
+<aside>
+<strong>Graphic Information Technology</strong> <br>
+Picacho Hall 245 | 7171 E. Sonoran Arroyo Mall | Mesa, AZ 85212<br>
+ask.git@asu.edu
+</aside>
+
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/kineticjs/5.2.0/kinetic.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script src="js/map.js"></script>
+
+
+</body>
+</html>
